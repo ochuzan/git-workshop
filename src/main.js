@@ -6,7 +6,19 @@ function readFile() {
 }
 
 function main() {
-    return readFile();
+    function addNumbers(input) {
+        let sum = 0;
+        for (let i = 0; i < input.length; i++) {
+            sum += input;
+        }
+        
+        return sum;
+    }
 }
 
-main()
+function main (){
+    readFile();
+    addNumbers([1,2,3]);
+}
+
+main();
